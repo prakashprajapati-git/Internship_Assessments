@@ -22,7 +22,7 @@ A simple console-based Java application that simulates an online train ticket re
 ## 🖥️ Modules
 
 ### 1. LoginForm.java
-Handles authentication with hardcoded credentials (`user` / `pass123`).
+Handles authentication with hardcoded credentials.
 
 ### 2. ReservationSystem.java
 Takes user input (name, age, train details, etc.), generates a PNR, and stores booking data in `reservations.txt`.
@@ -36,4 +36,16 @@ Main entry point of the application. It shows the menu and routes user actions t
 ---
 
 ## 📂 Project Structure
+
+## 📂 Project Structure
+
+```bash
+OnlineReservationSystem/
+│
+├── LoginForm.java
+├── ReservationSystem.java
+├── CancellationForm.java
+├── Main.java
+├── reservations.txt  # stores reservation records
+└── README.md
 
