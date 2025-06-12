@@ -34,18 +34,3 @@ Finds and cancels a reservation using the PNR number after user confirmation.
 Main entry point of the application. It shows the menu and routes user actions to the appropriate module.
 
 ---
-
-## 📂 Project Structure
-
-## 📂 Project Structure
-
-```bash
-OnlineReservationSystem/
-│
-├── LoginForm.java
-├── ReservationSystem.java
-├── CancellationForm.java
-├── Main.java
-├── reservations.txt  # stores reservation records
-└── README.md
-
